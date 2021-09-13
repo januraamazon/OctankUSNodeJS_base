@@ -28,7 +28,7 @@ app.get('/', function(req, res) {
 	console.log('GET Slash function called...');
 	console.log('ENVIRONMENT VARIABLE: TOMATOURL value is ', process.env.TOMATOURL);
 	console.log('ENVIRONMENT VARIABLE: SERVERWORLDURL value is ', process.env.SERVERWORLDURL);
-	let url = process.env.TOMATOURL;
+	let url = process.env.ECSWALLETXYZURL;
 	res.render('index', {url: url});
     console.log('Calling Serverside from OTANKUSNODEjs container.... '); 
 		var urlside = 'http://serverworldlocal.ecswallet.xyz:8080/';
